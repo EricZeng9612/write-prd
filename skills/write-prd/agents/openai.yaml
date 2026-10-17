@@ -1,7 +1,7 @@
 interface:
   display_name: "write-prd"
   short_description: "按参考范式编写全产品或单模块 PRD，串联流程、功能表、原型与完成定义"
-  default_prompt: "使用 $write-prd，根据我提供的产品资料编写 PRD，沿用模块流程、六列功能表和完成定义，每次修订同步更新变更记录并标明待确认项。"
+  default_prompt: "使用 $write-prd，根据我提供的产品资料编写 PRD，沿用模块流程、六列功能表和完成定义，将变更记录放在正文最开始并在每次修订时更新，其余章节灵活组织，标明待确认项。"
 
 policy:
   allow_implicit_invocation: true
